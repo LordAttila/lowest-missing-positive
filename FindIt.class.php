@@ -4,7 +4,8 @@ class FindIt
 {
 
     /**
-     * Generate random unique numbers in the given range
+     * Generate random unique numbers in the given range.
+     * Only unique numbers will be generated.
      * @param int $min The lowest value of the range. (can be negative)
      * @param int $max The greatest value of the range. (can be negative)
      * @param int $piece How much numbers will be generated.
