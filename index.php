@@ -5,7 +5,7 @@
  * @param int $min The lowest value of the range. (can be negative)
  * @param int $max The greatest value of the range. (can be negative)
  * @param int $piece How much numbers will be generated.
- * @return mixed array of elements or FALSE.
+ * @return mixed array or FALSE.
  * There is some exeption when return with FALSE:
  * If $min and $max are both negative and $max lower than $min.
  * $piece is not a positive number.
