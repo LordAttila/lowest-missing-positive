@@ -12,7 +12,7 @@ class FindIt
      * There is some exeption when return with FALSE:
      * If $min and $max are both negative and $max lower than $min.
      * $piece is not a positive number.
-     * If summ value of (absolute)$min and (absolute)$max is lower than $piece.
+     * If range of $min and $max is lower than $piece.
      */
     public static function generateNumbers($min, $max, $piece)
     {
